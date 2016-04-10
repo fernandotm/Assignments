@@ -1,6 +1,6 @@
-<style>
+/** Styles files **/
 
-/********** Base styles **********/
+/********** Top Defaults **********/
 * {
   box-sizing: border-box;
   font-family : "helvetica"
@@ -25,7 +25,7 @@ p {
 }
 
 
-/* Simple Responsive Framework. */
+/* Responsive Framework. */
 .row {
   width: 100%;
 }
@@ -155,7 +155,5 @@ p {
   text-align: center;
   height:20px;
   width:100px;
-  
 }
-
-</style>
+  
