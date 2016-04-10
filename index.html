@@ -13,9 +13,9 @@
   font-family : "helvetica"
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 175%;
-  align-content: center;
+  text-align: center;
   }
 
 p {
@@ -23,10 +23,12 @@ p {
   background-color: mediumaquamarine;
   width: 90%;
   height: 150px;
+  margin-top: auto;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 0px;
+  margin-bottom: auto;
   font-family: Helvetica;
-  color: lightyellow;
+  color: black;
 }
 
 
@@ -39,7 +41,7 @@ p {
 @media (min-width: 992px) {
   .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
     float: left;
-    border: 1px solid black;
+    border: 1px solid white;
   }
   .col-dt-1 {
     width: 8.33%;
@@ -83,7 +85,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
     float: left;
-    border: 1px solid black;
+    border: 1px solid white;
   }
   .col-tb-1 {
     width: 8.33%;
@@ -122,19 +124,59 @@ p {
     width: 100%;
   }
 }
+#p1 {
+  background-color: maroon;
+  color: white;
+  float:right;
+  margin-right: 29px;
+  margin-top: 10px;
+  text-align: center;
+  height:20px;
+  width:100px;
+  
+}
+#pdesc {
+    float:top;
+    padding: 20px;
+    margin-top:10px;
+    
+    
+}#p2 {
+  background-color: darkgreen;
+  color: white;
+  float:right;
+  margin-right: 29px;
+  margin-top: 10px;
+  text-align: center;
+  height:20px;
+  width:100px;
+  
+    
+}
+#p3 {
+  background-color: darkblue;
+  color: white;
+  float:right;
+  margin-right: 29px;
+  margin-top: 10px;
+  text-align: center;
+  height:20px;
+  width:100px;
+  
+}
 
 </style>
 
  </head>
  <body>
      <div class="row">
-         <div class col-dt-12 col-tb-12"><H1>Module 2 Assignment</H1>
+         <div class= "col-dt-12 col-tb-12"><h1>Module 2 Assignment</h1>
          </div>
      </div>
      <div class="row">
-        <div class="col-dt-4 col-tb-6"><p>ONE: This is the content of item No.1. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
-        <div class="col-dt-4 col-tb-6"><p>TWO: This is the content of item No.2. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
-        <div class="col-dt-4 col-tb-12"><p>THREE: This is the content of item No.3. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
+        <div class="col-dt-4 col-tb-6"><p id="p1">ONE</p><p id="pdesc">This is the content of item No.1. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
+        <div class="col-dt-4 col-tb-6"><p id="p2">TWO</p><p id="pdesc">This is the content of item No.2. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
+        <div class="col-dt-4 col-tb-12"><p id="p3">THREE</p><p id="pdesc">This is the content of item No.3. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
      </div>
  </body>
 </html>
