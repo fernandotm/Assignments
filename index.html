@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
     <title>Assignments by fernandotm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;font-size 175%
+  
+}
+h2 {
+    font-size 125%
+}
+
+p {
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop Mode ** col-dt-SIZE ********/
+@media (min-width: 992px) {
+  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-dt-1 {
+    width: 8.33%;
+  }
+  .col-dt-2 {
+    width: 16.66%;
+  }
+  .col-dt-3 {
+    width: 25%;
+  }
+  .col-dt-4 {
+    width: 33.33%;
+  }
+  .col-dt-5 {
+    width: 41.66%;
+  }
+  .col-dt-6 {
+    width: 50%;
+  }
+  .col-dt-7 {
+    width: 58.33%;
+  }
+  .col-dt-8 {
+    width: 66.66%;
+  }
+  .col-dt-9 {
+    width: 74.99%;
+  }
+  .col-dt-10 {
+    width: 83.33%;
+  }
+  .col-dt-11 {
+    width: 91.66%;
+  }
+  .col-dt-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet Mode **** col-tb-SIZE ******/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-tb-1 {
+    width: 8.33%;
+  }
+  .col-tb-2 {
+    width: 16.66%;
+  }
+  .col-tb-3 {
+    width: 25%;
+  }
+  .col-tb-4 {
+    width: 33.33%;
+  }
+  .col-tb-5 {
+    width: 41.66%;
+  }
+  .col-tb-6 {
+    width: 50%;
+  }
+  .col-tb-7 {
+    width: 58.33%;
+  }
+  .col-tb-8 {
+    width: 66.66%;
+  }
+  .col-tb-9 {
+    width: 74.99%;
+  }
+  .col-tb-10 {
+    width: 83.33%;
+  }
+  .col-tb-11 {
+    width: 91.66%;
+  }
+  .col-tb-12 {
+    width: 100%;
+  }
+}
+
+</style>
 
  </head>
  <body>
-     <p/>
+     <H1>Module 2 Assignment</H1>
+     <div class="row">
+        <div class="col-lg-3 col-md-6"><h2>ONE</h2><p>This is the content of item No.1. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
+        <div class="col-lg-3 col-md-6"><h2>TWO</h2><p>This is the content of item No.2. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
+        <div class="col-lg-3 col-md-6"><h2>THREE</h2><p>This is the content of item No.3. It is just dummy text that does not say anything.  In fact, it only takes up space!</p></div>
+     </div>
  </body>
 </html>
