@@ -14,7 +14,7 @@ h1 {
 p {
   border: 1px solid black;
   background-color: mediumaquamarine;
-  width: 90%;
+  width: 95%;
   height: 150px;
 /*  margin-top: auto;   */
 /*  margin-right: auto; */
@@ -117,12 +117,25 @@ p {
     width: 100%;
   }
 }
+
+/********** Phone Mode **** col-tb-SPAN ******/
+@media (max-width: 767px) {
+  .col-phone {
+    float: left;
+    border: 1px solid white;
+    margin-top: 0px;
+  }
+  .col-phone {
+      width: 100%;
+  }
+}
+
 #p1 {
   background-color: maroon;
   color: white;
   float:right;
-  margin-right: 56px;
-  margin-top: 0px;
+  margin-right: 5%;
+  margin-top: 10px;
   text-align: center;
   height:25px;
   width:100px;
@@ -140,8 +153,8 @@ p {
   background-color: darkgreen;
   color: white;
   float:right;
-  margin-right: 56px;
-  margin-top: 0px;
+  margin-right: 5%;
+  margin-top: 10px;
   text-align: center;
   height:25px;
   width:100px;
@@ -153,8 +166,8 @@ p {
   background-color: darkblue;
   color: white;
   float:right;
-  margin-right: 56px;
-  margin-top: 0px;
+  margin-right: 5%;
+  margin-top: 10px;
   text-align: center;
   height:25px;
   width:100px;
